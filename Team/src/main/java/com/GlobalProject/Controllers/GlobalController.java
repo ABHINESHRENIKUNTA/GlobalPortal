@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class GlobalController {
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	private String loginController() {
-		
+		System.out.println("hai");
 		return "";
 	}
 
